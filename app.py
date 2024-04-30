@@ -131,6 +131,6 @@ if authenticate_user():
 
   st.header( "OUR TEAM MEMBERS")
   ("720820103072 [NADISH KS](https://www.linkedin.com/in/nadish-ks-10276b255)")
-  ("720820103077 [NAVVEN S](https://www.instagram.com/_dio_kid_naveentrinks?igsh=MTZhOXJlN3p4cHNzeA==)")
+  ("720820103077 [NAVEEN S](https://www.instagram.com/_dio_kid_naveentrinks?igsh=MTZhOXJlN3p4cHNzeA==)")
   ("720820103076 [NAVEEN R](https://www.instagram.com/ft.crushxx_?igsh=eW90Yzhsbndkemhl)")
   ("720820103306 [KISHORE CHAKKARAVARTHY A](https://www.linkedin.com/in/kishore-chakkaravarthy-54a0812b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)")
