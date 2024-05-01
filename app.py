@@ -21,9 +21,9 @@ def creds_entered():
 
 def authenticate_user():
    if "authenticated" not in st.session_state: 
-    image = Image.open('style\stock.png')
+    image = Image.open('stock.png')
     st.image(image)
-    with open("style\stock.png") as file:
+    with open("stock.png") as file:
      st.header('WELCOME TO STOCKMART')
     ('Stock Price Prediction App')
     st.text_input(label="USERNAME:", value="", key="user", on_change=creds_entered)
@@ -34,9 +34,9 @@ def authenticate_user():
      if st.session_state ["authenticated"]:
        return True
      else:
-        image = Image.open('style\stock.png')
+        image = Image.open('stock.png')
         st.image(image)
-        with open("style\stock.png") as file:
+        with open("stock.png") as file:
          st.header('WELCOME TO STOCKMART')
         ('Stock Price Prediction App')
         st.text_input(label="USERNAME:", value="", key="user", on_change=creds_entered)
@@ -46,10 +46,10 @@ def authenticate_user():
      
 if authenticate_user():
   st.title('Stock Price Prediction App')
-  image = Image.open('style\stock.png')
+  image = Image.open('stock.png')
   st.sidebar.title('STOCKMART')
   st.sidebar.image(image)
-  with open("style\stock.png") as file:
+  with open("stock.png") as file:
 
    START = "2010-01-01"
   TODAY = date.today().strftime("%Y-%m-%d")
